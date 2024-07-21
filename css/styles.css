@@ -7,11 +7,11 @@
 /* Style the links inside the navigation bar */
 .topnav a {
   float: left;
-  color: #f2f2f2;
+  color: #E5E7EB;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 18px;
 }
 
 /* Change the color of links on hover */
@@ -43,7 +43,7 @@
   float: right;
   height: 270px;
   width: 600px;
-
+  margin-top: 140px;
   margin-right: 10px;
 
 }
@@ -52,18 +52,19 @@
 
   overflow: hidden;
   margin-left: 10px;
-  color: #F9FAF8;
+  color: #E5E7EB;
+  font-size: 18px;
   font-family: Arial, Helvetica, sans-serif;
 
 }
 
 .descr .heading {
   color: #F9FAF8;
-  font-weight: 48px;
+  font-size: 48px;
 }
 
 .btn {
-  background-color: #ADD8E6;
+  background-color: #3882F6;
   border: none;
   border-radius: 3px;
   color: white;
@@ -147,4 +148,22 @@ hr {
   .cancelbtn, .signupbtn {
     width: 100%;
   }
+}
+
+
+div.item {
+  /* align-content: center; */
+  vertical-align: top;
+  display: inline-block;
+  text-align: center;
+  width: 300px;
+  margin-left: 30px;
+}
+.item img {
+  width: 100px;
+  height: 100px;
+  background-color: grey;
+}
+.caption {
+  display: block;
 }
