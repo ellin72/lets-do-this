@@ -81,10 +81,12 @@
   color: white;
 }
 
-* {box-sizing: border-box}
+* {
+  box-sizing: border-box
+}
 
 /* Full-width input fields */
-  input[type=text], input[type=password] {
+input[type=text], input[type=password] {
   width: 100%;
   padding: 15px;
   margin: 5px 0 22px 0;
@@ -115,8 +117,8 @@ hr {
   opacity: 0.9;
 }
 
- button:hover {
-  opacity:1;
+button:hover {
+  opacity: 1;
 }
 
 /* Extra styles for the cancel button */
@@ -159,11 +161,13 @@ div.item {
   width: 300px;
   margin-left: 30px;
 }
+
 .item img {
   width: 100px;
   height: 100px;
   background-color: grey;
 }
+
 .caption {
   display: block;
 }
@@ -190,7 +194,47 @@ div.item {
   margin-right: 30px;
 }
 
+.call {
+  border: #3882F6 solid;
+  margin: 0px 100px 30px 100px;
+  border-radius: 5px;
+  background-color: #3882F6;
+  display: flex;
+  align-items: center
+}
+
+.call-text {
+  flex-grow: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-left: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #E5E7EB;
+}
+
+div.call div.call-text p {
+  margin-top: 0px;
+}
+
+div.call div.call-text h1 {
+  margin-bottom: 0px;
+}
+
+.btn-call {
+  background-color: inherit;
+  border: #E5E7EB solid;
+  border-radius: 5px;
+  padding: 3px 20px;
+  margin-right: 100px;
+  font-size: large;
+  color: #E5E7EB;
+}
+
 .footer {
   background-color: #1F2937;
   text-align: center;
+  color: #E5E7EB;
+  padding: 5px 0px;
+  font-family: Arial, Helvetica, sans-serif;
 }
