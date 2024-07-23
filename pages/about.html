@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="shortcut icon"
+      href="../images/favicon.ico"
+      type="image/x-icon"
+    />
+    <style>
+      .topnav {
+        background-color: #1f2937;
+        overflow: hidden;
+      }
+
+      /* Style the links inside the navigation bar */
+      .topnav a {
+        float: left;
+        color: #e5e7eb;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 18px;
+      }
+
+      /* Change the color of links on hover */
+      .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+
+      /* Add a color to the active/current link */
+      .topnav a.active {
+        background-color: #4e504f;
+        color: white;
+      }
+
+      /* Right-aligned section inside the top navigation */
+      .topnav-right {
+        float: right;
+      }
+
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+      }
+
+      html {
+        box-sizing: border-box;
+      }
+
+      *,
+      *:before,
+      *:after {
+        box-sizing: inherit;
+        font-family: "Times New Roman", Times, serif;
+      }
+
+      .column {
+        float: left;
+        width: 33.3%;
+        margin-bottom: 16px;
+        padding: 0 8px;
+      }
+
+      .card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        margin: 8px;
+      }
+
+      .about-section {
+        padding: 50px;
+        text-align: center;
+        background-color: #474e5d;
+        color: white;
+      }
+
+      .container {
+        padding: 0 16px;
+      }
+
+      .container::after,
+      .row::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+
+      .title {
+        color: grey;
+      }
+
+      .button {
+        border: none;
+        outline: 0;
+        display: inline-block;
+        padding: 8px;
+        color: white;
+        background-color: #000;
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+      }
+
+      .button:hover {
+        background-color: #555;
+      }
+
+      @media screen and (max-width: 650px) {
+        .column {
+          width: 100%;
+          display: block;
+        }
+      }
+    </style>
+    <title>About us</title>
+  </head>
+  <body>
+    <div class="topnav">
+      <a class="activ" href="/"
+        ><img src="../images/favicon.ico" alt="home"
+      /></a>
+      <div class="topnav-right">
+        <a href="../pages/login.html">Log In</a>
+        <a href="../pages/contact.html">Contact</a>
+        <a href="../pages/about.html" class="active">About</a>
+      </div>
+    </div>
+    <div class="about-section">
+      <h1>About Us</h1>
+      <p>
+        Our team is responsible for conceptualizing and creating the visual
+        design and layout of websites. This involves coding individual webpages
+        or entire websites, as well as meeting with clients to present and
+        discuss website templates or make any necessary design improvements. We
+        also conduct tests to preview layouts and various website features, and
+        we are involved in creating wireframes and mock-ups to visualize the
+        final website design.
+      </p>
+    </div>
+
+    <h2 style="text-align: center">Our Team</h2>
+    <div class="row">
+      <div class="column">
+        <div class="card">
+          <img src="../images/pass.jpg" alt="elli" style="width: 100%" />
+          <div class="container">
+            <h2>Elli N Shituna</h2>
+            <p class="title">CEO & Founder</p>
+            <p>
+              A young male, very much interested in coding and programming.
+              Taking it to the next level. Looking forward in working with
+              everyone.
+            </p>
+            <p>ellins@el.com</p>
+            <p><button class="button">Contact</button></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="card">
+          <img src="../images/coord.JPG" alt="rose" style="width: 100%" />
+          <div class="container">
+            <h2>Rose Tuhafeni</h2>
+            <p class="title">Art Director</p>
+            <p>
+              Conducts comprehensive code reviews, adhering to Software
+              Development best practices and standards. She also supports
+              testing and validation efforts to maintain the quality and
+              reliability of software solutions.
+            </p>
+            <p>rose@el.com</p>
+            <p><button class="button">Contact</button></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="card">
+          <img src="../images/co.JPG" alt="juang" style="width: 100%" />
+          <div class="container">
+            <h2>Juang Kapandu</h2>
+            <p class="title">Designer</p>
+            <p>
+              Executes all visual design stages from concept to final hand-off
+              to engineering. Conceptualizing original website design ideas that
+              bring simplicity and user-friendliness to complex roadblocks,
+              creating wireframes, storyboards, user flows, process flows, and
+              site maps to communicate interaction and design ideas.
+            </p>
+            <p>juang@el.com</p>
+            <p><button class="button">Contact</button></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
