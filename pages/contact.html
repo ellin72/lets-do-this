@@ -8,6 +8,7 @@
       href="../images/favicon.ico"
       type="image/x-icon"
     />
+    <link rel="stylesheet" href="../css/styles.css" />
     <style>
       /* Style inputs with type="text", select elements and textareas */
       input[type="text"],
@@ -39,7 +40,7 @@
       }
 
       /* Add a background color and some padding around the form */
-      .container {
+      .ccontainer {
         border-radius: 5px;
         background-color: #f2f2f2;
         padding: 20px;
@@ -48,8 +49,18 @@
     <title>Contact Us</title>
   </head>
   <body>
-    <div class="container">
-        <h1 style="text-align: center;">Contact Us</h1>
+    <div class="topnav">
+      <a class="activ" href="/"
+        ><img src="../images/favicon.ico" alt="home"
+      /></a>
+      <div class="topnav-right">
+        <a href="../pages/login.html">Log In</a>
+        <a href="../pages/contact.html" class="active">Contact</a>
+        <a href="../pages/about.html">About</a>
+      </div>
+    </div>
+    <div class="ccontainer">
+      <h1 style="text-align: center">Contact Us</h1>
       <form action="../index.html">
         <label for="fname">First Name</label>
         <input

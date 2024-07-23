@@ -219,6 +219,7 @@ div.call div.call-text p {
 
 div.call div.call-text h1 {
   margin-bottom: 0px;
+  font-weight: bolder;
 }
 
 .btn-call {
@@ -231,10 +232,15 @@ div.call div.call-text h1 {
   color: #E5E7EB;
 }
 
+.btn-call:hover {
+  cursor: pointer;
+}
+
 .footer {
   background-color: #1F2937;
   text-align: center;
   color: #E5E7EB;
   padding: 5px 0px;
   font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
 }
